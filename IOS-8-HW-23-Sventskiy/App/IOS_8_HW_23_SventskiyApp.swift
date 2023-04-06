@@ -11,7 +11,7 @@ import SwiftUI
 struct IOS_8_HW_23_SventskiyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StructTab()
         }
     }
 }

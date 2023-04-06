@@ -8,19 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		3524D4D229DEAA5B00207D86 /* IOS_8_HW_23_SventskiyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3524D4D129DEAA5B00207D86 /* IOS_8_HW_23_SventskiyApp.swift */; };
-		3524D4D429DEAA5B00207D86 /* FirstScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3524D4D329DEAA5B00207D86 /* FirstScreen.swift */; };
+		3524D4D429DEAA5B00207D86 /* MediatekaFirstScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3524D4D329DEAA5B00207D86 /* MediatekaFirstScreen.swift */; };
 		3524D4D629DEAA5D00207D86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3524D4D529DEAA5D00207D86 /* Assets.xcassets */; };
 		3524D4D929DEAA5D00207D86 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3524D4D829DEAA5D00207D86 /* Preview Assets.xcassets */; };
-		3524D4E229DEB1E700207D86 /* SecondScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3524D4E129DEB1E700207D86 /* SecondScreen.swift */; };
+		3524D4E229DEB1E700207D86 /* MediatekaSecondScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3524D4E129DEB1E700207D86 /* MediatekaSecondScreenView.swift */; };
+		3524D4E429DF0F7300207D86 /* StructTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3524D4E329DF0F7300207D86 /* StructTab.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3524D4CE29DEAA5B00207D86 /* IOS-8-HW-23-Sventskiy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IOS-8-HW-23-Sventskiy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3524D4D129DEAA5B00207D86 /* IOS_8_HW_23_SventskiyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_8_HW_23_SventskiyApp.swift; sourceTree = "<group>"; };
-		3524D4D329DEAA5B00207D86 /* FirstScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreen.swift; sourceTree = "<group>"; };
+		3524D4D329DEAA5B00207D86 /* MediatekaFirstScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediatekaFirstScreen.swift; sourceTree = "<group>"; };
 		3524D4D529DEAA5D00207D86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3524D4D829DEAA5D00207D86 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		3524D4E129DEB1E700207D86 /* SecondScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreen.swift; sourceTree = "<group>"; };
+		3524D4E129DEB1E700207D86 /* MediatekaSecondScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediatekaSecondScreenView.swift; sourceTree = "<group>"; };
+		3524D4E329DF0F7300207D86 /* StructTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructTab.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,8 +74,9 @@
 			isa = PBXGroup;
 			children = (
 				3524D4D129DEAA5B00207D86 /* IOS_8_HW_23_SventskiyApp.swift */,
-				3524D4D329DEAA5B00207D86 /* FirstScreen.swift */,
-				3524D4E129DEB1E700207D86 /* SecondScreen.swift */,
+				3524D4D329DEAA5B00207D86 /* MediatekaFirstScreen.swift */,
+				3524D4E129DEB1E700207D86 /* MediatekaSecondScreenView.swift */,
+				3524D4E329DF0F7300207D86 /* StructTab.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -148,9 +151,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3524D4D429DEAA5B00207D86 /* FirstScreen.swift in Sources */,
+				3524D4D429DEAA5B00207D86 /* MediatekaFirstScreen.swift in Sources */,
 				3524D4D229DEAA5B00207D86 /* IOS_8_HW_23_SventskiyApp.swift in Sources */,
-				3524D4E229DEB1E700207D86 /* SecondScreen.swift in Sources */,
+				3524D4E429DF0F7300207D86 /* StructTab.swift in Sources */,
+				3524D4E229DEB1E700207D86 /* MediatekaSecondScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
