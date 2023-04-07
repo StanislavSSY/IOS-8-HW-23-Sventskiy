@@ -9,11 +9,7 @@ import SwiftUI
 
 struct StructTab: View {
     var body: some View {
-       
-        ZStack {
-            
             VStack {
-                
                 TabView {
                     MediatekaFirstScreenView()
                         .tabItem {
@@ -29,59 +25,38 @@ struct StructTab: View {
                         .tabItem {
                             Image(systemName: "magnifyingglass")
                             Text("Поиск")
-                        
                         }
-                    
                 }
-               
-            }
-            
-            
-
-                    
-              //  Text("Не исполняется")
-                //    .background(.red)
-                //    .frame(width: .maximum(20, 30))
-                 //               .font(.body)
-                //                .foregroundColor(.black)
-                 //               .multilineTextAlignment(.center)
-                //                .padding(10)
-            }
         }
-        }
-    
-    
+    }
+}
     struct StructTab_Previews: PreviewProvider {
         static var previews: some View {
             StructTab()
         }
     }
 
-
-
-
 struct ExtractedView: View {
     var body: some View {
-        ZStack {
+        
+        ZStack(alignment: Alignment(horizontal: .leading, vertical: .bottom)) {
             HStack {
+                
                 Image(systemName: "music.note")
                     .resizable()
                     .frame(width: 30, height: 30)
                     .foregroundColor(.gray)
-                //Spacer()
                     .padding(20)
-                    .padding(.horizontal)
+                //.padding(.horizontal)
                 Text("Не исполняется")
-                //Spacer()
+                    .padding(20)
                 Image(systemName: "play.fill")
-                    .padding(.leading)
-                    .padding(1)
+                    .padding()
                 Image(systemName: "forward.fill")
                     .foregroundColor(.gray)
-                    .padding(5)
-                    .padding(.horizontal)
-                    
             }
         }
+        .offset(y: 200 )
+        .padding(.vertical)
     }
 }

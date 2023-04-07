@@ -15,46 +15,26 @@ struct MediatekaFirstScreenView: View {
                 Text("Ищете свою музыку?")
                     .bold()
                     .font(.title)
-                    
                     .multilineTextAlignment(.center)
-                    .padding(0)
+                    .padding(10)
                 
                 Text("Здесь появится купленная Вами в ITunes Store музыка")
                     .font(.body)
                     .foregroundColor(.black)
                     .multilineTextAlignment(.center)
-                
-                
-                
                     .navigationTitle("Медиатека")
                     .navigationBarItems(trailing: Button("Править"){ })
-                
                     .foregroundColor(.red)
-                
-                
-                    //.padding(.leading)
-                //Spacer()
+              
                 VStack {
-                    
                     ExtractedView()
-                        
-                    
+                  
                 }
                 
             }
         }
     }
-    
-            }
-            
-            
-            
-            
-        
-        
-    
-    
-    
+}
     struct ContentView_Previews: PreviewProvider {
         static var previews: some View {
             MediatekaFirstScreenView()
